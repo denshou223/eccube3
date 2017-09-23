@@ -1,0 +1,8 @@
+order allow,deny
+deny from all
+
+AuthUserfile /home/users/1/sub.jp-masaki/web/eccube3/.htpasswd
+AuthGroupfile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
